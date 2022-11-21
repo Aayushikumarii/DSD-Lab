@@ -1,0 +1,7 @@
+module lab1_q1(a,b,c,d,f,g);
+  input a,b,c,d;
+  output f,g;
+  nand (h,a,b );
+  nor (f, d,g,c);
+  nor (g, h,c,b);
+ endmodule
